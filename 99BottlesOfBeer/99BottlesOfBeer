@@ -2,8 +2,6 @@
 
 import UIKit
 
-
-
 var bottles = 99
 for number in 1..<100 {
     let  decrement = bottles-number
@@ -28,9 +26,6 @@ for number in 1..<100 {
     //for the last bottle, make the bottles singular
     if(decrement == 1){
         print("|\(decrement)| more bottle of beer on the wall, |\(decrement)| more bottle of beer. Take it down, pass it around, no more bottles of beer on the wall. ")
-        print("------------------------------------------------------------------------------------------------------------------------------")
-        
-    }
-    
-    
+        print("------------------------------------------------------------------------------------------------------------------------------")       
+    }  
 }
