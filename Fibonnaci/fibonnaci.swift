@@ -13,7 +13,7 @@ func fibonacci(until n: Int){
     
     // for all the values afterwards,
     //add num1 and num2 together until reaching specified index
-    //shift each num value everytime we iterate through the for lool
+    //shift each num value everytime we iterate through the for loop
     for iteration in 2...n{
         
         //num becomes sum of previous two numbers
@@ -28,4 +28,6 @@ func fibonacci(until n: Int){
     }
 }
 
+
+//test out our function with index 8
 fibonacci(until: 8)
