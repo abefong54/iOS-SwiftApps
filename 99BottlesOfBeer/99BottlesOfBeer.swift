@@ -2,8 +2,6 @@
 
 import UIKit
 
-
-
 var bottles = 99
 for number in 1..<100 {
     let  decrement = bottles-number
