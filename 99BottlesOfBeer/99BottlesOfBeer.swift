@@ -22,6 +22,7 @@ for number in 1..<100 {
         print("|\(decrement)| more bottle of beer on the wall, |\(decrement)| more bottle of beer. Take it down, pass it around, no more bottles of beer on the wall. ")
         print("------------------------------------------------------------------------------------------------------------------------------")
     }
+    
     //print out the final verse once theres no more bottles, and terminate the program
     if(decrement == 0){
         print("No more bottles of beer on the wall, no more bottles of beer.")
