@@ -1,4 +1,4 @@
-//: Playground - noun: a place where people can play
+//prints out the lyrics to the song '99 Bottles of Beer'
 
 import UIKit
 
