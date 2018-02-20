@@ -1,0 +1,34 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var message = "bottles of beer on the wall,"
+var message2 = "bottles of beer."
+var message3 = "Take one down, pass it around,"
+var message4 = "bottles of beer on the wall."
+
+
+var bottles = 99
+
+for number in 1..<100 {
+    var decrement = bottles-number
+    var decrement2 = bottles-number-1
+    
+    if(decrement == 0){
+        print("No more bottles of beer on the wall, no more bottles of beer.")
+        print("Go to the store and buy some more, 99 bottles of beer on the wall. :D ")
+        break
+    }
+    
+    //for the first round, print 99 then begin to decrement
+    if(number == 1 ){
+    print("\(bottles) \(message) \(bottles) \(message2) \(message3) \(decrement) \(message4)" )
+    print("")
+    }
+    
+    // for 98 - 1 print out the decrementing values
+    print("\(decrement) \(message) \(decrement) \(message2) \(message3) \(decrement2) \(message4)")
+    print("")
+
+    
+}
